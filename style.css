@@ -1,0 +1,116 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #800000;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.header-left h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.slogan {
+  font-size: 14px;
+  margin: 2px 0 0 0;
+  color: #f8d7da;
+  font-style: italic;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0px; /* Jarak antara logo dan tulisan */
+}
+.logo {
+  height: 100px;
+  margin-right: 0; /* Hilangkan jarak tambahan */
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f8f0f0;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #800000;
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #800000;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #800000;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #800000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}

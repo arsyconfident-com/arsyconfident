@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ARSYCONFIDENT INTERIOR</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: #800000;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo-title-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo {
+      height: 100px;
+    }
+
+    .title-group {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.2;
+    }
+
+    .title-group h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .title-group span {
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #f8f0f0;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      color: #800000;
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #800000;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #800000;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Lightbox */
+    #lightbox {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    #lightbox img {
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #800000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .about-container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 20px;
+      text-align: left;
+    }
+
+    .about-container p {
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        margin-top: 10px;
+        width: 100%;
+        text-align: left;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 5px 10px 0 0;
+      }
+
+      .logo-title-container {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-title-container">
+      <img src="logo arsy.png" alt="Logo arsy" class="logo">
+      <div class="title-group">
+        <h1>ARSYCONFIDENT INTERIOR</h1>
+        <span>Estetika • Fungsi • Kepuasan Pelanggan</span>
+      </div>
+    </div>
+    <nav>
+      <a href="#layanan">Layanan</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#tentang">Tentang Kami</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Interior Impian? Serahkan pada ahlinya!</h1>
+    <p>Kami siap wujudkan ruang estetik dan fungsional dengan hasil terbaik</p>
+    <a class="btn" href="https://wa.me/62881026919708" target="_blank">ADMIN 1</a>
+    <a class="btn" href="https://wa.me/6289677536482" target="_blank">ADMIN 2</a>
+    <a class="btn" href="#">Katalog Produk</a>
+  </section>
+
+  <section class="section" id="tentang">
+    <h2>Tentang Kami</h2>
+    <div class="about-container">
+      <p>Semua berawal dari sebuah ruang kosong — polos, sederhana, dan belum punya cerita. Dari sanalah ArsyConfident lahir, dengan visi sederhana namun penuh makna: <strong>mengubah ruang biasa menjadi tempat yang luar biasa.</strong></p>
+      <p>Kami percaya bahwa rumah bukan hanya tempat tinggal, tapi juga tempat pulang, tempat tumbuh, dan tempat di mana semua kenangan tercipta.</p>
+      <p>Berawal dari proyek-proyek kecil di Sidoarjo, kami tumbuh bersama kepercayaan para klien dari Surabaya, Jakarta, Bali hingga kota lainnya.</p>
+      <p>Kami tidak sekadar menawarkan jasa. Kami mendengarkan cerita, memahami kebutuhan, dan merancang ruang yang mencerminkan siapa Anda sebenarnya.</p>
+      <p>Di ArsyConfident, kami percaya bahwa keindahan tidak selalu harus mahal, dan kenyamanan bisa dirancang.</p>
+      <p>Karena bagi kami, setiap proyek adalah kolaborasi. Bukan sekadar klien dan vendor, tapi sebuah perjalanan bersama untuk menciptakan ruang yang membuat Anda berkata: <strong>"Akhirnya, ini dia tempat yang aku impikan."</strong></p>
+      <p>Selamat datang di ArsyConfident. Kami siap membantu mewujudkan ruang impian Anda — dari nol, hingga jadi tempat paling nyaman di dunia.</p>
+    </div>
+  </section>
+
+  <section class="section" id="layanan">
+    <h2>Layanan Kami</h2>
+    <p><strong>Pasang Interior, Furniture Custom, AC, Instalasi Listrik, Renovasi, Bangun Pagar, Railing Tangga, dan Kanopi</strong></p>
+<p><strong>TIDAK HANYA ITU KAMI JUGA SIAP MEMBUAT TEMPAT HEWAN PELIHARAAN ANDA NYAMAN</strong></p>
+  </section>
+
+  <section class="section">
+    <h2>FREE KONSULTASI DAN SURVEY</h2>
+    <p><strong>PENGERJAAN CEPAT, RAPI, DAN DIJAMIN BERGARANSI 100%</strong></p>
+  </section>
+
+  <section class="section" id="galeri">
+    <h2>Galeri Proyek</h2>
+    <div class="gallery">
+      <img src="plavon 1.jpg" alt="plavon 1" onclick="showLightbox(this.src)">
+      <img src="plavon 2.jpg" alt="plavon 2" onclick="showLightbox(this.src)">
+      <img src="plavon 3.jpg" alt="plavon 3" onclick="showLightbox(this.src)">
+      <img src="plavon 4.jpg" alt="plavon 4" onclick="showLightbox(this.src)">
+      <img src="plavon 5.jpg" alt="plavon 5" onclick="showLightbox(this.src)">
+      <img src="plavon 6.jpg" alt="plavon 6" onclick="showLightbox(this.src)">
+      <img src="plavon 7.jpg" alt="plavon 7" onclick="showLightbox(this.src)">
+<img src="rumahkucing.jpg" alt="rumahkucing" onclick="showLightbox(this.src)">
+    </div>
+  </section>
+
+  <section class="section" id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>📍 Jl. KRI P Rempang No. 18, Sidoarjo</p>
+    <p>📞 0881-0269-19708</p>
+    <p>🌍 Kami melayani Surabaya, Sidoarjo, Jakarta, Bali dan Sekitarnya</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ArsyConfident. All rights reserved.</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <script>
+    function showLightbox(src) {
+      const lightboxImg = document.getElementById('lightbox-img');
+      lightboxImg.src = src;
+      document.getElementById('lightbox').style.display = 'flex';
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
